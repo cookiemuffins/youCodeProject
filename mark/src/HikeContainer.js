@@ -8,8 +8,11 @@ function HikeContainer({ imageUrl, name, rating}) {
             <img className="hike-img" src={imageUrl} alt={'a hiking destination'} />
             <h3> {name} </h3>
             <p> {rating} </p>
+            <button onClick="doSmth()">See More</button>
         </div>
     )
 }
+
+
 
 export default HikeContainer;

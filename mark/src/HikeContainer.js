@@ -4,16 +4,16 @@ import styled from 'styled-components'
 
 
 const HikeContainer = styled.div`
-  width: 60%;
+  width: 70%;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 50px;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
 `;
 
 const HikeImage = styled.img`
-  width: 60%; 
+  width: 55%; 
   border-radius: 5px;
   display: block;
   margin-bottom: 1px;
@@ -32,10 +32,12 @@ const HikeTitle = styled.h2`
 
 const HikeDescription = styled.p`
   color: #000000;
+  font-weight: bold;
   font-size: 16px;
   text-align: left;
   margin-left: 400px;
   margin-top: 50px;
+  margin-bottom: 20px;
 `;
 
 const HikeRating = styled.p`
@@ -48,8 +50,21 @@ const HikeButton = styled.button`
   color: #000000;
   font-size: 16px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 `;
+
+const HikeMap = styled.iframe`
+  width: 100%
+  height = 500 px;
+  margin-top: 50px;
+
+`;
+
+// allowfullscreen = true;
+// loading = lazy;
+// referrerpolicy = no-referrer-when-downgrade
+// title = "Responsive map" 
 
 
 export default function Card(props) {
@@ -62,6 +77,7 @@ export default function Card(props) {
           <HikeButton role="link" onClick={() => window.open(props.url)}>
             See More
           </HikeButton>
+          <HikeMap src={props.map} title = "Responsive Map" allowFullScreen loading = "lazy" referrerPolicy="no-referrer-when-downgrade"></HikeMap> 
         </HikeContainer>
     );
   }

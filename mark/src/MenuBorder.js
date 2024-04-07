@@ -5,27 +5,17 @@ import { Link } from 'react-router-dom';
 
 function MenuBorder() {
 
-    function handleDiscoverClick() {
-        console.log("clicked");
-    }
-
-    function handleApparelClick() {
-        console.log("clicked");
-    }
-
-    function handleGearClick() {
-        console.log("clicked");
-    }
-
     return (
-        <div className="menu">
-            MARK
-            <ul>
-                <li onClick={handleDiscoverClick}>Discover</li>
-                <li onClick={handleApparelClick}>Apparel</li>
-                <li onClick={handleGearClick}>Gear</li>
-            </ul>
-        </div>
+        // <nav className="menu">
+            <div>
+                <ul>
+                    <li>MARK</li>
+                    <li><Link to="discover">Discover</Link></li>
+                    <li><Link to="apparel">Apparel</Link></li>
+                    <li><Link to="gear">Gear</Link></li>
+                </ul>
+            </div>
+        // </nav>
     )
 }
 

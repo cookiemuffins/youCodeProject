@@ -14,7 +14,7 @@ const HikeContainer = styled.div`
 `;
 
 const HikeImage = styled.img`
-  width: 55%; 
+  width: 30%; 
   border-radius: 5px;
   display: block;
   margin-bottom: 1px;

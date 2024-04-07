@@ -9,7 +9,7 @@ function MenuBorder() {
         // <nav className="menu">
             <div>
                 <ul>
-                    <li>MARK</li>
+                    <li><Link to="home">MARK</Link></li>
                     <li><Link to="discover">Discover</Link></li>
                     <li><Link to="apparel">Apparel</Link></li>
                     <li><Link to="gear">Gear</Link></li>

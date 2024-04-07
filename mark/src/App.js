@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import HikeContainer from './HikeContainer';
 import MenuBorder from './MenuBorder';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Discover from './Discover';
+import Apparel from './Apparel';
+import Gear from './Gear';
 
 // import { BrowseRouter as Router, Route} from 'react-router-dom';
 
 function App() {
+  
   const [searchItem, setSearchTerm] = useState('');
   const hikes = [
     {
@@ -44,9 +48,16 @@ function App() {
 
   return (
     <div className="App">
-    <header className="App-header">
-      <MenuBorder />
-
+      <Router>
+        <header className="App-header">
+        <MenuBorder />
+        <Routes>
+          <Route path="/discover" element={<Discover />}/>
+          <Route path="/apparel" element={<Apparel />}/>
+          <Route path="/gear" element={<Gear />}/>
+        </Routes>
+        </header>
+    </Router>
 
       <input
         type="text"
@@ -59,8 +70,8 @@ function App() {
         <HikeContainer key={hike.id} url={hike.url} imageUrl={hike.imageUrl} description={hike.description} name={hike.name} rating={hike.rating}/>
       ))}
     </header>
-    </div>
 
+    </div>
   );
 }
 

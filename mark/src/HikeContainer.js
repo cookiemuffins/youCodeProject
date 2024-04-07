@@ -67,7 +67,6 @@ export default function Card(props) {
   }
 
 
-
 // function HikeContainer({imageUrl, name, rating, url}) {
 //     // let history = useHistory();
 

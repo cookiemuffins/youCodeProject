@@ -17,13 +17,12 @@ function App() {
         <header className="App-header">
         <MenuBorder />
         <Routes>
-          <Route path="/discover" element={<Discover />}/>
+          <Route path="/discover" element={<Discover/>}/>
           <Route path="/apparel" element={<Apparel />}/>
           <Route path="/gear" element={<Gear />}/>
         </Routes>
         </header>
     </Router>
-
     </div>
   );
 }

@@ -10,7 +10,8 @@ function HikeContainer({imageUrl, name, rating, url}) {
             <img className="hike-img" src={imageUrl} alt={'a hiking destination'} />
             <h3> {name} </h3>
             <p> {rating} </p>
-            <button 
+            <button
+                className="button"
                 role="link" 
                 onClick={() => window.open(url)}>See More</button>
         </div>

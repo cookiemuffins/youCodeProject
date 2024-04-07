@@ -12,7 +12,7 @@ function Discover() {
           "name": "Grouse Mountain",
           "description": "The park provides habitat to a wide variety of plants and animals in the heart of Canada's third largest urban area.",
           "rating":"4.5 Stars",
-          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.991326869788!2d-123.10100368772328!3d49.371237071286984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54866f458d5468b3%3A0x73a60976c7a6a4e7!2sGrouse%20Grind%20Trail!5e0!3m2!1sja!2sca!4v1712472755807!5m2!1sja!2sca",
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.9911422564633!2d-123.10099832378205!3d49.37124056447946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54866f458d5468b3%3A0x73a60976c7a6a4e7!2sGrouse%20Grind%20Trail!5e0!3m2!1sen!2sca!4v1712513877432!5m2!1sen!2sca",
           "url" : "https://www.grousemountain.com/"
       },
       {
@@ -21,7 +21,7 @@ function Discover() {
         "name": "Joffre Lakes",
         "description": "The park provides habitat to a wide variety of plants and animals in the heart of Canada's third largest urban area.",
         "rating":"4.8 Stars",
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20365.094563516857!2d-122.506021630137!3d50.354678930713824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5480cf2f8942b561%3A0x1293666072f00115!2z44K444On44OV44Os44O744Os44Kk44Kv44K544O744OR44O844Kv!5e0!3m2!1sja!2sca!4v1712473613360!5m2!1sja!2sca",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2546.3519787625182!2d-122.47878532372593!3d50.341340095214306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5480cf2f8942b561%3A0x1293666072f00115!2sJoffre%20Lakes%20Park!5e0!3m2!1sen!2sca!4v1712513799571!5m2!1sen!2sca",
         "url" : "https://bcparks.ca/joffre-lakes-park/"
       },
       {
@@ -30,7 +30,7 @@ function Discover() {
         "name": "Queen Elizabeth Park",
         "description": "The park provides habitat to a wide variety of plants and animals in the heart of Canada's third largest urban area.",
         "rating":"4.3 Stars",
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.8276399146994!2d-123.1151942232957!3d49.241756971386764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f54e6bc621%3A0xb4b7ef4d0fe7a488!2z44Ko44Oq44K244OZ44K55aWz546L5YWs5ZyS!5e0!3m2!1sja!2sca!4v1712473539993!5m2!1sja!2sca",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5209.654910362515!2d-123.1151942237894!3d49.24176047365154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f54e6bc621%3A0xb4b7ef4d0fe7a488!2sQueen%20Elizabeth%20Park!5e0!3m2!1sen!2sca!4v1712513742805!5m2!1sen!2sca",
         "url" : "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park.aspx"
       }
     ]

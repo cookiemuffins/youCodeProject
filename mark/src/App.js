@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import HikeContainer from './HikeContainer';
+import MenuBorder from './MenuBorder';
 
 // import { BrowseRouter as Router, Route} from 'react-router-dom';
 
@@ -41,7 +42,8 @@ function App() {
   return (
     <div className="App">
     <header className="App-header">
-      <h1> MARK </h1>
+      <MenuBorder />
+
 
       <input
         type="text"

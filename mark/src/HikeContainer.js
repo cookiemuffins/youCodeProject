@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './HikeContainer.css';
-import { Link } from 'react-router-dom';
 
 
-function HikeContainer({ imageUrl, name, rating, url}) {
+function HikeContainer({imageUrl, name, rating, url}) {
     // let history = useHistory();
 
     return (
